@@ -1,0 +1,10 @@
+name: mujoco
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip  
+  - patchelf
+  - glew
+  - pip:
+    - mujoco_py

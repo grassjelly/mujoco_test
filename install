@@ -13,4 +13,5 @@ echo "export LD_PRELOAD=$CONDA_PREFIX/envs/mujoco/lib/libGLEW.so" >> ~/.bashrc
 source ~/.bashrc
 
 mamba env create -f linux.yml
-
+conda activate mujoco
+python -c "import mujoco_py"
